@@ -1,6 +1,5 @@
-#include "arduino_secrets.h"
-
 /*
+  PLA-RAILS-POINT-Servo-programs
   5pin-SW  10pin-Servo data
 
 */
