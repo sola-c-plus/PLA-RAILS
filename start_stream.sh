@@ -7,4 +7,4 @@ FRAMERATE="120" #フレームレート
 export LD_LIBRARY_PATH=/usr/local/lib
 mjpg_streamer \
 -i "input_uvc.so -f $FRAMERATE -r $SIZE -d /dev/video0 -y -n" \
--o "output_http.so -w ./www -p $PORT -c $ID:$PW"
+-o "output_http.so -w /usr/local/share/mjpg-streamer/www -p $PORT -c $ID:$PW"
