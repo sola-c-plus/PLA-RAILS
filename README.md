@@ -3,5 +3,6 @@
 video画像取得用HTML.pi zero2w pi3b+ で動作するmjpg streamerの
 セッティングファイルをまとめている。(sudo,sh)
 
-画質はUSB2.0接続を考慮して640x480 60fpsが限界だろう.
-又　wifiがzero 2w は2.4Ghzなため速度が出ない
+Pi zero 2wのwifiは2.4Ghzなため速度が出ない。
+それ以前にUSB2.0接続でボトルネックになる
+640x480 60fpsが限界だろう.
