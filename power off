@@ -1,0 +1,4 @@
+sudo nano /boot/config.txt
+
+//最終に以下の文章を追加　3秒間GPIO3をショートさせれば電源が落ちる
+dtoverlay=gpio-shutdown,gpio_pin=3,active_low=1,debounce=3000
